@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Iris Species</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sepal_length_cm">Sepal Length (cm)</string>
+    <string name="sepal_width_cm">Sepal Width (cm)</string>
+    <string name="petal_length_cm">Petal Length (cm)</string>
+    <string name="petal_width_cm">Petal Width (cm)</string>
+</resources>

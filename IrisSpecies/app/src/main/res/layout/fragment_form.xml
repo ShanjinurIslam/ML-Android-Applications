@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_margin="15sp"
+android:orientation="vertical"
+tools:context=".ResultFragment">
+<!-- TODO: Update blank fragment layout -->
+<EditText
+    android:id="@+id/sepal_length"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:inputType="numberDecimal"
+    android:hint="@string/sepal_length_cm" />
+
+<EditText
+    android:id="@+id/sepal_width"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:inputType="numberDecimal"
+    android:hint="@string/sepal_width_cm" />
+
+
+<EditText
+    android:id="@+id/petal_length"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:inputType="numberDecimal"
+    android:hint="@string/petal_length_cm" />
+
+<EditText
+    android:id="@+id/petal_width"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:inputType="numberDecimal"
+    android:hint="@string/petal_width_cm" />
+
+<Button
+    android:id="@+id/submit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    />
+
+
+</LinearLayout>
